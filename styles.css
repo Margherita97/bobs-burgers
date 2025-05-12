@@ -1,13 +1,16 @@
 .container {
-    max-width: 50%;
+    width: 50%;
     height: 200px;
     border: 5px solid black;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
 .person {
     background-color: pink;
     border-radius: 50%;
-    width: 25%;
-    height: 50%;
+    width: 10rem;
+    height: 10rem;
 }
