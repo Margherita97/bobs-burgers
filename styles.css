@@ -1,6 +1,6 @@
 .container {
     width: 50%;
-    height: 200px;
+    height: 500%;
     border: 5px solid black;
     padding: 2rem;
     display: flex;
@@ -12,6 +12,26 @@
 .person {
     background-color: pink;
     border-radius: 50%;
-    width: 15rem;
+    width: 10rem;
     height: 10rem;
+    border: 5px solid red;
+    position: relative;
+}
+
+.eye {
+    background-color: black;
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.left {
+    top: 3rem;
+    left: 1.5rem;
+}
+
+.right {
+    top: 3rem;
+    left: 4.5rem;
 }
